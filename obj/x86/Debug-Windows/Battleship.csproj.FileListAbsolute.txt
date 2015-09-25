@@ -22,3 +22,27 @@ D:\Uni\S2 2015\Development Project 1\Project Files\ProjectTemplate\bin\Debug\MyG
 D:\Uni\S2 2015\Development Project 1\Project Files\ProjectTemplate\bin\Debug\SwinGame.dll
 D:\Uni\S2 2015\Development Project 1\Project Files\ProjectTemplate\obj\x86\Debug-Windows\Battleship.csprojResolveAssemblyReference.cache
 D:\Uni\S2 2015\Development Project 1\Project Files\ProjectTemplate\obj\x86\Debug-Windows\MyGame.exe
+D:\UNI\SWE20001\Battleship\obj\x86\Debug-Windows\Battleship.csprojResolveAssemblyReference.cache
+D:\UNI\SWE20001\Battleship\obj\x86\Debug-Windows\MyGame.exe
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\animations\startup.txt
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\bundles\FileDialog.txt
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\bundles\splash.txt
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\fonts\arial.ttf
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\fonts\cour.ttf
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\fonts\maven_pro_regular.ttf
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\images\fdFile.png
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\images\fdFolder.png
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\images\FileDialog_Active.png
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\images\FileDialog_Background.png
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\images\FileDialog_Inactive.png
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\images\FileDialog_Scroll.png
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\images\Swinburne.jpg
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\images\SwinGameAni.png
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\panels\FileDialog.txt
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\sounds\error.wav
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\sounds\SwinGameStart.wav
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\SwinGame.icns
+D:\UNI\SWE20001\Battleship\bin\Debug\Resources\SwinGame.ico
+D:\UNI\SWE20001\Battleship\bin\Debug\MyGame.exe
+D:\UNI\SWE20001\Battleship\bin\Debug\SwinGame.dll
