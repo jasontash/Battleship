@@ -1,11 +1,11 @@
 10
-AAA100
-BBB90
-CCC80
-DDD70
-EEE60
-FFF50
-GGG40
-HHH30
-III20
-JJJ10
+Daniel    100
+Markus    90
+Catherine 80
+Danny     70
+Elizabeth 60
+John      50
+Kelly     40
+Herb      30
+Ian       20
+Janice    10

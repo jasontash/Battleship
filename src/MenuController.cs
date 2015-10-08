@@ -27,7 +27,7 @@ namespace Battleship
 		private static readonly string[][] _menuStructure = {
 			new string[] {
 				"PLAY",
-				"SETUP",
+				"DIFFICULTY",
 				"SCORES",
 				"QUIT"
 			},
