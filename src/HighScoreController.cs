@@ -18,7 +18,7 @@ namespace Battleship
 	/// </remarks>
 	static class HighScoreController
 	{
-		private const int NAME_WIDTH = 3;
+		private const int NAME_WIDTH = 10;
 
 		private const int SCORES_LEFT = 490;
 		/// <summary>
@@ -180,7 +180,8 @@ namespace Battleship
 				int x = 0;
 				x = SCORES_LEFT + SwinGame.TextWidth(GameResources.GameFont("Courier"), "Name: ");
 
-				SwinGame.StartReadingText(Color.White, NAME_WIDTH, GameResources.GameFont("Courier"), x, ENTRY_TOP);
+				//this is the line for reading in the users inputted name
+				SwinGame.StartReadingText(Color.Yellow, NAME_WIDTH, GameResources.GameFont("Courier"), x, ENTRY_TOP);
 
 				//Read the text from the user
 				while (SwinGame.ReadingText()) {
@@ -194,8 +195,8 @@ namespace Battleship
 
 				s.Name = SwinGame.TextReadAsASCII();
 
-				if (s.Name.Length < 3) {
-					s.Name = s.Name + new string(Convert.ToChar(" "), 3 - s.Name.Length);
+				if (s.Name.Length < 10) {
+					s.Name = s.Name + new string(Convert.ToChar(" "), 10 - s.Name.Length);
 				}
 
 				_Scores.RemoveAt(_Scores.Count - 1);
