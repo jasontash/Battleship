@@ -21,6 +21,8 @@ namespace Battleship
 		private const int NAME_WIDTH = 10;
 		private const int MENU_BUTTON_LEFT = 10;
 		private const int MENU_BUTTON_TOP = 49;
+		private const int MENU_BUTTON_WIDTH = 100;
+		private const int MENU_BUTTON_HEIGHT = 34;
 
 		private const int SCORES_LEFT = 490;
 		/// <summary>
@@ -154,8 +156,9 @@ namespace Battleship
 		/// <remarks></remarks>
 		public static void HandleHighScoreInput()
 		{
-			if (SwinGame.MouseClicked(MouseButton.LeftButton) || SwinGame.KeyTyped(KeyCode.vk_ESCAPE)) {
-				GameController.EndCurrentState();
+			if ((SwinGame.MouseClicked(MouseButton.LeftButton) && UtilityFunctions.IsMouseInRectangle (MENU_BUTTON_LEFT, MENU_BUTTON_TOP, MENU_BUTTON_WIDTH, MENU_BUTTON_HEIGHT)) || SwinGame.KeyTyped(KeyCode.vk_ESCAPE))
+			{
+				GameController.EndCurrentState ();
 			}
 		}
 
