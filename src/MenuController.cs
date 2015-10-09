@@ -45,9 +45,9 @@ namespace Battleship
 		};
 		private const int MENU_TOP = 575;
 		private const int MENU_LEFT = 30;
-		private const int MENU_GAP = 0;
-		private const int BUTTON_WIDTH = 75;
-		private const int BUTTON_HEIGHT = 15;
+		private const int MENU_GAP = 10;
+		private const int BUTTON_WIDTH = 120;
+		private const int BUTTON_HEIGHT = 30;
 		private const int BUTTON_SEP = BUTTON_WIDTH + MENU_GAP;
 
 		private const int TEXT_OFFSET = 0;
@@ -195,11 +195,11 @@ namespace Battleship
 		/// of the menu, to enable sub menus. The xOffset repositions the menu horizontally
 		/// to allow the submenus to be positioned correctly.
 		/// </remarks>
-		private static void DrawButtons(int menu, int level, int xOffset)
+		private static void DrawButtons(int menu, int level, int xOffset = 100)
 		{
 			int btnTop = 0;
 
-			btnTop = MENU_TOP - (MENU_GAP + BUTTON_HEIGHT) * level;
+			btnTop = MENU_TOP - (MENU_GAP + BUTTON_HEIGHT) * level - 17;
 			int i = 0;
 			for (i = 0; i <= _menuStructure[menu].Length - 1; i++) {
 				int btnLeft = 0;
@@ -207,8 +207,8 @@ namespace Battleship
 				//SwinGame.FillRectangle(Color.White, btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT)
 				SwinGame.DrawTextLines(_menuStructure[menu][i], MENU_COLOR, Color.Black, GameResources.GameFont("Menu"), FontAlignment.AlignCenter, btnLeft + TEXT_OFFSET, btnTop + TEXT_OFFSET, BUTTON_WIDTH, BUTTON_HEIGHT);
 
-				if (SwinGame.MouseDown(MouseButton.LeftButton) & IsMouseOverMenu(i, level, xOffset)) {
-					SwinGame.DrawRectangle(HIGHLIGHT_COLOR, btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT);
+				if (IsMouseOverMenu(i, level, xOffset)) {
+					SwinGame.DrawRectangle(HIGHLIGHT_COLOR, btnLeft, btnTop - 6, BUTTON_WIDTH, BUTTON_HEIGHT);
 				}
 			}
 		}
@@ -232,7 +232,7 @@ namespace Battleship
 		/// <returns>true if the mouse is over the button</returns>
 		private static bool IsMouseOverMenu(int button, int level, int xOffset)
 		{
-			int btnTop = MENU_TOP - (MENU_GAP + BUTTON_HEIGHT) * level;
+			int btnTop = MENU_TOP - (MENU_GAP + BUTTON_HEIGHT) * level - 17;
 			int btnLeft = MENU_LEFT + BUTTON_SEP * (button + xOffset);
 
 			return UtilityFunctions.IsMouseInRectangle(btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT);
