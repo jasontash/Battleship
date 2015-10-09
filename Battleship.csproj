@@ -212,6 +212,8 @@
     <None Include="Resources\sounds\sink.wav" />
     <None Include="Resources\sounds\watershot.wav" />
     <None Include="Resources\sounds\winner.wav" />
+    <None Include="Resources\images\return_menu_button.png" />
+    <None Include="Resources\images\main-menu-button.png" />
   </ItemGroup>
   <Target Name="CopyFiles">
     <Copy SourceFiles="@(MacLibraryFiles)" DestinationFolder="$(OutDir)" />

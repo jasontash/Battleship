@@ -88,8 +88,9 @@ namespace Battleship
 			bool handled = false;
 			handled = HandleMenuInput(SETUP_MENU, 1, 1);
 
-			if (!handled) {
-				HandleMenuInput(MAIN_MENU, 0, 0);
+			if (!handled)
+			{
+				HandleMenuInput (MAIN_MENU, 0, 0);
 			}
 		}
 
