@@ -14,7 +14,7 @@ namespace Battleship
 	static class DiscoveryController
 	{
 		private const int MENU_BUTTON_LEFT = 10;
-		private const int MENU_BUTTON_TOP = 5;
+		private const int MENU_BUTTON_TOP = 49;
 		private const int MENU_BUTTON_WIDTH = 100;
 
 

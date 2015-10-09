@@ -1,21 +1,19 @@
 ﻿<Properties StartupItem="Battleship.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Windows|x86" />
-<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="src\HighScoreController.cs">
     <Files>
-      <File FileName="src\HighScoreController.cs" Line="198" Column="30" />
-      <File FileName="src\UtilityFunctions.cs" Line="1" Column="1" />
-      <File FileName="src\MenuController.cs" Line="1" Column="1" />
-      <File FileName="src\EndingGameController.cs" Line="1" Column="1" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="src\DeploymentController.cs">
-    <Files>
-      <File FileName="src\DiscoveryController.cs" Line="1" Column="1" />
-      <File FileName="src\DeploymentController.cs" Line="178" Column="99" />
+      <File FileName="src\DiscoveryController.cs" Line="17" Column="42" />
+      <File FileName="src\DeploymentController.cs" Line="178" Column="4" />
       <File FileName="src\UtilityFunctions.cs" Line="1" Column="1" />
       <File FileName="src\Model\BattleshipsGame.cs" Line="1" Column="1" />
-      <File FileName="src\GameResources.cs" Line="1" Column="1" />
->>>>>>> add-menu-button
+      <File FileName="src\GameResources.cs" Line="160" Column="3" />
+      <File FileName="src\HighScoreController.cs" Line="210" Column="31" />
+      <File FileName="src\MenuController.cs" Line="11" Column="2" />
+      <File FileName="src\GameLogic.cs" Line="21" Column="4" />
+      <File FileName="src\GameState.cs" Line="1" Column="1" />
+      <File FileName="src\GameController.cs" Line="278" Column="29" />
+      <File FileName="src\Model\AIPlayer.cs" Line="1" Column="1" />
+      <File FileName="src\EndingGameController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
