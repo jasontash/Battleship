@@ -13,6 +13,10 @@ namespace Battleship
 	/// </summary>
 	static class DiscoveryController
 	{
+		private const int MENU_BUTTON_LEFT = 10;
+		private const int MENU_BUTTON_TOP = 5;
+		private const int MENU_BUTTON_WIDTH = 100;
+
 
 		/// <summary>
 		/// Handles input during the discovery phase of the game.
@@ -28,6 +32,10 @@ namespace Battleship
 			}
 
 			if (SwinGame.MouseClicked(MouseButton.LeftButton)) {
+				if(UtilityFunctions.IsMouseInRectangle (MENU_BUTTON_LEFT, MENU_BUTTON_TOP, MENU_BUTTON_WIDTH, MENU_BUTTON_WIDTH))
+				{
+					GameController.EndCurrentState ();	
+				}
 				DoAttack();
 			}
 		}
@@ -76,6 +84,7 @@ namespace Battleship
 			SwinGame.DrawText(GameController.HumanPlayer.Shots.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, SHOTS_TOP);
 			SwinGame.DrawText(GameController.HumanPlayer.Hits.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, HITS_TOP);
 			SwinGame.DrawText(GameController.HumanPlayer.Missed.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, SPLASH_TOP);
+			SwinGame.DrawBitmap (GameResources.GameImage ("BackToMenu"), MENU_BUTTON_LEFT, MENU_BUTTON_TOP);
 		}
 
 	}

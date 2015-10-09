@@ -19,6 +19,8 @@ namespace Battleship
 	static class HighScoreController
 	{
 		private const int NAME_WIDTH = 10;
+		private const int MENU_BUTTON_LEFT = 10;
+		private const int MENU_BUTTON_TOP = 49;
 
 		private const int SCORES_LEFT = 490;
 		/// <summary>
@@ -128,6 +130,7 @@ namespace Battleship
 				LoadScores();
 
 			SwinGame.DrawText("   High Scores   ", Color.White, GameResources.GameFont("Courier"), SCORES_LEFT, SCORES_HEADING);
+			SwinGame.DrawBitmap (GameResources.GameImage("BackToMenu"), MENU_BUTTON_LEFT, MENU_BUTTON_TOP);
 
 			//For all of the scores
 			int i = 0;
