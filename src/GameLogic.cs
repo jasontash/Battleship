@@ -10,6 +10,8 @@ namespace Battleship
 {
 	static class GameLogic
 	{
+		private const float VOLUME = 0.1F;
+
 		public static void Main()
 		{
 			//Opens a new Graphics Window
@@ -19,6 +21,7 @@ namespace Battleship
 			GameResources.LoadResources();
 
 			SwinGame.PlayMusic(GameResources.GameMusic("Background"));
+			SwinGame.SetMusicVolume (VOLUME);
 
 			//Game Loop
 			do {
