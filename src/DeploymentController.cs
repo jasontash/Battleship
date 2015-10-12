@@ -36,6 +36,7 @@ namespace Battleship
 		private const int MENU_BUTTON_LEFT = 10;
 		private const int MENU_BUTTON_TOP = 49;
 		private const int MENU_BUTTON_WIDTH = 100;
+		private const int MENU_BUTTON_HEIGHT = 34;
 
 		private const int TEXT_OFFSET = 5;
 		private static Direction _currentDirection = Direction.UpDown;
@@ -91,7 +92,7 @@ namespace Battleship
 				{
 					GameController.HumanPlayer.RandomizeDeployment ();
 				}
-				else if (UtilityFunctions.IsMouseInRectangle (MENU_BUTTON_LEFT, MENU_BUTTON_TOP, MENU_BUTTON_WIDTH, MENU_BUTTON_WIDTH))
+				else if (UtilityFunctions.IsMouseInRectangle (MENU_BUTTON_LEFT, MENU_BUTTON_TOP, MENU_BUTTON_WIDTH, MENU_BUTTON_HEIGHT))
 				{
 					GameController.EndCurrentState ();
 				}

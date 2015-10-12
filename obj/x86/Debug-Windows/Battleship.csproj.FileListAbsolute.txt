@@ -70,3 +70,27 @@ D:\Uni\S2 2015\Development Project 1\Project Files\Battleship\bin\Debug\MyGame.e
 D:\Uni\S2 2015\Development Project 1\Project Files\Battleship\bin\Debug\SwinGame.dll
 D:\Uni\S2 2015\Development Project 1\Project Files\Battleship\obj\x86\Debug-Windows\Battleship.csprojResolveAssemblyReference.cache
 D:\Uni\S2 2015\Development Project 1\Project Files\Battleship\obj\x86\Debug-Windows\MyGame.exe
+H:\SWE20001\Battleship\bin\Debug\Resources\animations\startup.txt
+H:\SWE20001\Battleship\bin\Debug\Resources\bundles\FileDialog.txt
+H:\SWE20001\Battleship\bin\Debug\Resources\bundles\splash.txt
+H:\SWE20001\Battleship\bin\Debug\Resources\fonts\arial.ttf
+H:\SWE20001\Battleship\bin\Debug\Resources\fonts\cour.ttf
+H:\SWE20001\Battleship\bin\Debug\Resources\fonts\maven_pro_regular.ttf
+H:\SWE20001\Battleship\bin\Debug\Resources\images\fdFile.png
+H:\SWE20001\Battleship\bin\Debug\Resources\images\fdFolder.png
+H:\SWE20001\Battleship\bin\Debug\Resources\images\FileDialog_Active.png
+H:\SWE20001\Battleship\bin\Debug\Resources\images\FileDialog_Background.png
+H:\SWE20001\Battleship\bin\Debug\Resources\images\FileDialog_Inactive.png
+H:\SWE20001\Battleship\bin\Debug\Resources\images\FileDialog_Scroll.png
+H:\SWE20001\Battleship\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
+H:\SWE20001\Battleship\bin\Debug\Resources\images\Swinburne.jpg
+H:\SWE20001\Battleship\bin\Debug\Resources\images\SwinGameAni.png
+H:\SWE20001\Battleship\bin\Debug\Resources\panels\FileDialog.txt
+H:\SWE20001\Battleship\bin\Debug\Resources\sounds\error.wav
+H:\SWE20001\Battleship\bin\Debug\Resources\sounds\SwinGameStart.wav
+H:\SWE20001\Battleship\bin\Debug\Resources\SwinGame.icns
+H:\SWE20001\Battleship\bin\Debug\Resources\SwinGame.ico
+H:\SWE20001\Battleship\bin\Debug\MyGame.exe
+H:\SWE20001\Battleship\bin\Debug\SwinGame.dll
+H:\SWE20001\Battleship\obj\x86\Debug-Windows\Battleship.csprojResolveAssemblyReference.cache
+H:\SWE20001\Battleship\obj\x86\Debug-Windows\MyGame.exe
