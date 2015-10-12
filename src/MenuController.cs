@@ -58,8 +58,8 @@ namespace Battleship
 		private const int MAIN_MENU_PLAY_BUTTON = 0;
 		private const int MAIN_MENU_SETUP_BUTTON = 1;
 		private const int MAIN_MENU_TOP_SCORES_BUTTON = 2;
-
 		private const int MAIN_MENU_QUIT_BUTTON = 3;
+
 		private const int SETUP_MENU_EASY_BUTTON = 0;
 		private const int SETUP_MENU_MEDIUM_BUTTON = 1;
 		private const int SETUP_MENU_HARD_BUTTON = 2;
@@ -272,7 +272,7 @@ namespace Battleship
 					GameController.AddNewState(GameState.AlteringSettings);
 					break;
 				case MAIN_MENU_TOP_SCORES_BUTTON:
-					GameController.AddNewState(GameState.ViewingHighScores);
+					GameController.AddNewState (GameState.ViewingHighScores);
 					break;
 				case MAIN_MENU_QUIT_BUTTON:
 					GameController.EndCurrentState();

@@ -154,7 +154,8 @@ namespace Battleship
 		/// <remarks></remarks>
 		public static void HandleHighScoreInput()
 		{
-			if (SwinGame.MouseClicked(MouseButton.LeftButton) || SwinGame.KeyTyped(KeyCode.vk_ESCAPE)) {
+			if (SwinGame.MouseClicked(MouseButton.LeftButton) || SwinGame.KeyTyped(KeyCode.vk_ESCAPE)) 
+			{
 				GameController.EndCurrentState();
 			}
 		}
@@ -206,10 +207,7 @@ namespace Battleship
 				_Scores.Add(s);
 				_Scores.Sort();
 
-				DrawHighScores ();
-				SwinGame.RefreshScreen ();
-
-				GameController.EndCurrentState();
+				GameController.EndCurrentState ();
 			}
 		}
 	}

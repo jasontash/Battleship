@@ -380,6 +380,7 @@ namespace Battleship
 		{
 			_aiSetting = setting;
 		}
+			
 
 	}
 }
